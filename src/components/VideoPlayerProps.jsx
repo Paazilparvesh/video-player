@@ -90,4 +90,4 @@ const VideoPlayer = ({
   completionThreshold = 0.9, // percentage of video watched to consider it "completed"
   // disable download: prevent users from downloading the video (e.g. for premium content)
   disableDownload = false,
-}) => {};
+}) => { props };
